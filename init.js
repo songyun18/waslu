@@ -4,9 +4,21 @@ $(function()
 	{
 		hoverInit();
 	}
+	if($('[rel="hover"]').length)
+	{
+		hoverInit();
+	}
 	if($('.click_box').length)
 	{
 		clickInit();
+	}
+	if($('.click_box').length)
+	{
+		clickInit();
+	}
+	if($('form[rel="ajax"]').length)
+	{
+		ajaxFormInit();
 	}
 	if($('form[rel="ajax"]').length)
 	{
