@@ -3,6 +3,9 @@ $(function()
 	if($('[rel="hover"]').length)
 	{
 		hoverInit();
+		hovert();
+		hoverInit();
+		hovert();
 	}
 	if($('[rel="hover"]').length)
 	{
