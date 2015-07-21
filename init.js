@@ -573,3 +573,8 @@ function getCookie(name)
 	}
 	return result;
 }
+
+function test()
+{
+	alert(123);
+}
