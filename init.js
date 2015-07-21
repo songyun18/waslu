@@ -576,5 +576,8 @@ function getCookie(name)
 
 function test()
 {
+	/*
 	alert(123);
+	*/
+	console.log(123);
 }
